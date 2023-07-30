@@ -1,0 +1,16 @@
+@charset "utf-8";
+@use '../../foundation/variable' as var;
+
+/* hero */
+.c-hero__inner {
+  background-image: url(/images/page-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: calc(var.$header-height + 30px) 0 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .c-hero__inner {
+    background-image: url(/images/page-hero_pc.png);
+  }
+}

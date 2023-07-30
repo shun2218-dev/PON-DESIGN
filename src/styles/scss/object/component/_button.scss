@@ -1,0 +1,29 @@
+@charset "utf-8";
+@use '../../foundation/mixin' as mix;
+
+/* button */
+.c-button {
+  background-image: var(--button-bg-gradation);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 0;
+  border-radius: 48px;
+  text-align: center;
+  padding: 18px 0;
+  width: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.c-button:hover {
+  background-image: var(--button-bg-gradation_hover);
+}
+
+.c-button a,
+.c-button button {
+  color: #ffffff;
+  @include mix.montserrat-bold;
+  font-size: 1rem;
+  white-space: nowrap;
+}

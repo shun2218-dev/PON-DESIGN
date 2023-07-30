@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* color */
+:root {
+  --primary: #391e88;
+  --dark-gray: #e8e8e8;
+  --gray: #f0f0f0;
+  --light-gray: #f7f7f7;
+  --pointer: #c0c0c0;
+  --font-color: #333333;
+  --main-bg: #ffffff;
+  --gradation-start: #7633a4;
+  --gradation-end: #250d65;
+  --button-bg-gradation: linear-gradient(0.25turn, var(--gradation-start), var(--gradation-end));
+  --button-bg-gradation_hover: linear-gradient(0.25turn, var(--gradation-end), var(--gradation-start));
+  --header-bg: #21054d;
+  --footer-bg: #120e19;
+  --swiper-pagination-top: calc(100% + 8px);
+  --swiper-navigation-size: 30px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: var(--primary);
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+@use '../../foundation/mixin' as mix;
+
+/* sns button */
+$blue: #2d77f1;
+$twitter-blue: #3495df;
+$light-blue: #39a4de;
+
+.c-sns-button {
+  border-radius: 6px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 0.5;
+}
+
+.c-sns-button:not(.c-sns-button--only-icon) {
+  padding: 6px 10px;
+}
+
+.c-sns-button__icon {
+  margin-right: 5px;
+}
+
+.c-sns-button--blue {
+  background-color: $blue;
+}
+.c-sns-button--twitter {
+  background-color: $twitter-blue;
+}
+.c-sns-button--light-blue {
+  background-color: $light-blue;
+}
